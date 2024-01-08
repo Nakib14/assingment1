@@ -1,0 +1,184 @@
+.container{
+    background-image: url(../resources/BannerImage.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    width: 82%;
+    max-width: 1320px;
+    margin: 50px auto;
+}
+.text p{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.text h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.offer{
+    align-items: center;
+    text-align: center;
+    margin: 80px auto;
+}
+.offer h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 73px;
+    font-weight: 700;
+}
+
+.offer p{
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.offer h2{
+    color: #070211;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+}
+.bg-img{
+    background-image: url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    max-width: 1320px;
+    width: 82%;
+    margin:50px auto;
+}
+.party{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 80px;
+}
+
+.party-text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 53px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.party-text p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+.party button{
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding: 16px 32px;
+    font-size: large;
+    font-weight: bold;
+    gap:10px
+}
+.party button:hover{
+    background-color: black;
+    color: #FFF;
+}
+
+.place-box{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 82%;
+    height: 482px;
+    max-width: 1320px;
+    margin:auto;
+    border-radius: 16px;
+}
+.text h2{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+
+.black{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.btn{
+    display: inline-flex;
+    padding: 16px 32px;
+    gap: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    background: #F00;
+    align-items: center;
+    }
+    .btn:hover{
+        background-color: rgb(117, 4, 4);
+    }
+
+    .comming{
+        display: flex;
+        width: 82%;
+        max-width: 1320px;
+        margin: 50px auto;
+        gap:  100px;
+
+    }
+
+    .new-year h2{
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .new-year h1{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        text-transform: capitalize;
+    }
+    .new-year .year p{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .img-men{
+        width: 364.844px;
+        height: 364.844px;
+        flex-shrink: 0;
+        border-radius: 364.844px;
+        background:lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    }
+    .year h3{
+        color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .year img{
+        width: 120px;
+        height: 120px;
+        flex-shrink: 0;
+    }
